@@ -134,7 +134,7 @@ sub type {
                 die @_;
             } else {
                 fatal(join(" ", @_));
-                die;
+                die @_;
             }
         };
 
